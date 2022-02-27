@@ -1,0 +1,57 @@
+  
+/* Add a background color and some padding around the form */
+.container {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgba(204, 204, 204, 0.781)63A; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}  
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: crimson;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea :focus{
+    background-color: #23263A;
+  }
+textarea{
+    background-color: #23263A;
+    border: 2px solid rgba(204, 204, 204, 0.781)63A; /* Gray border */ 
+  }
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(235, 15, 59);
+  }
+
+@media only screen and (min-width: 268px) and (max-width: 767px){
+    
+  .container {
+    width: 100%;
+    margin: none;
+
+}
+}

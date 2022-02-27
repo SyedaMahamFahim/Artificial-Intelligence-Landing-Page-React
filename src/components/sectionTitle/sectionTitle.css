@@ -1,0 +1,15 @@
+.title{
+    font-size: 20vh;
+    font-family: var(--font-family);
+    letter-spacing: 5px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px #dc143c;
+    color: transparent;
+    margin-left: -50px;
+}
+
+@media screen and (max-width: 700px) {
+    .title{
+        font-size: 10vh;
+    }
+}
